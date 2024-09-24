@@ -298,7 +298,7 @@ plotSCAMPI=raw %>%
   filter(SepBF>=3, 
          nA >= minsize, nB >= minsize, nAB >= minsize,
          fanoA<3, fanoB<3) %>%
-  mutate(Confidence=factor(cut(WinPr,c(0,.5,.75,.95,1)))) %>%
+  mutate(Confidence=factor(cut(Prob,c(0,.5,.75,.95,1)))) %>%
   ggplot(., aes(x=Type,y=after_stat(prop),by = 1)) +
   geom_bar(aes(fill=Confidence),color='black',stat = "prop") + 
   scale_y_continuous(labels = scales::percent,
