@@ -66,7 +66,7 @@ To implement the SCAMPI model exactly as described by [@chen2024spike], you can 
 
 ### Example for implementing SCAMPI model in a raw dataset
 
-Here presents an example code for embedding `ratejuggling` to our pipeline. Notice the dataset needs save in a format as we specified in the pipeline. 
+Below is an example of how to embed the `ratejuggling` function into our pipeline. Please ensure that the dataset is saved in the format specified for the pipeline.
 
 ```{r eval=FALSE, include=TRUE}
 
