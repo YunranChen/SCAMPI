@@ -634,6 +634,10 @@ try({for (file_n in c(1:length(list_of_files))){
 <div id="post-process-the-raw-output-from-ratejuggling-and-visualization" class="section level3">
 <h3>Post process the raw output from <code>ratejuggling</code> and
 visualization</h3>
+<p>Notice <code>WinProb</code> is the winning probabilites under four
+hypotheses: “SlowJug”,“FastJug”,“Fixed”,“Overreaching”. And
+<code>Prob</code> is the winning probabilities under seven hypotheses:
+“SlowJug”,“FastJug”,“Overreaching”,“Fixed-Preferred”,“Fixed-Non-Preferred”,“Fixed-Middle”,“Fixed-Outside”.</p>
 <pre class="r"><code>### read SCAMPI results
 
 dat.pth=&quot;path/to/your/SCAMPIresults/&quot;

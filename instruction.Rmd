@@ -233,6 +233,8 @@ try({for (file_n in c(1:length(list_of_files))){
 
 ### Post process the raw output from `ratejuggling` and visualization
 
+Notice `WinProb` is the winning probabilites under four hypotheses: "SlowJug","FastJug","Fixed","Overreaching". And `Prob` is the winning probabilities under seven hypotheses: "SlowJug","FastJug","Overreaching","Fixed-Preferred","Fixed-Non-Preferred","Fixed-Middle","Fixed-Outside". 
+
 ```{r eval=FALSE, include=TRUE}
 
 ### read SCAMPI results
